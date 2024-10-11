@@ -1,0 +1,330 @@
+body{
+    background-image: url("./imgs/1\ 1.png");
+    background-size:cover;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+/* section1 */
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* News  */
+.news
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+#party{
+    position: relative;
+    text-align: left;
+    color: white;    
+}
+#dubai{
+    position: relative;
+    text-align: left;
+    color: white;
+    
+}
+#P1{
+    margin-top: 150px;
+    width: 230px;
+    height: 120px;
+}
+#P2{
+    width: 230px;
+    height: 120px;
+}
+#text1
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    top: 16px;
+    bottom: 8px;
+    font-size: medium;
+}
+#text2
+{
+    position: absolute;
+    margin-left: 80px;
+    top: 16px;
+    bottom: 8px;
+    font-size: medium;
+}
+.news span{
+    color: #00ffcc;
+}
+
+/* best employees */
+.Employees
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+.Employees p{
+    color: #00ffcc;
+    font-size: medium;
+}
+.Employees h2{
+    color: #fff;
+    font-size: medium;
+}
+.best1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    text-align: center;
+    background-color: #25322B;
+    border-radius: 25px; 
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 150px;
+    max-height: 100px;
+}
+.best2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #25322B; 
+    align-items:flex-end;
+    border-radius: 25px; 
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-height: 100px;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* leftSide */
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgs
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #25322B;
+    border-radius: 30px;
+    width: 230px;
+    height: 50px;
+    padding-top: 15px;
+}
+#img1{
+    width: 80px;
+    height: 50px;
+}
+#img2{
+    width: 80px;
+    height: 50px;
+}
+/* GM Card */
+.gm-card {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #25322B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 20px;
+    max-width: 230px;
+    height: 20px;
+}
+
+.gm-img {
+    width: 120px;
+    height: 120px;
+    background-image: url('./imgs/Group 71.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px; /* Space between image and text */
+    margin-bottom: 60px;
+}
+
+.gm-text {
+    color: #00ffcc; /* Green text for GM */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack GM and name vertically */
+}
+
+.gm-text h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #00ffcc; 
+}
+
+.gm-text p {
+    margin: 0;
+    font-size: 0.5rem; /* Adjust as necessary */
+    color: #fff; /* White for the name */
+}
+
+
+/* middleSide */
+.middleSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* welcome */
+.WELCOME{
+    text-align: center;
+}
+.WELCOME h1{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+.WELCOME h2{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+.WELCOME span{
+    font-size: 2rem;
+    color: #00ffcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* zbooma */
+.zbooma{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: linear-gradient(to bottom right, #25322B, #000);
+    border-radius: 25px;
+    max-width: 650px;
+    padding-top: 15px;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.colum h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.colum p{
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.opesity{
+    opacity: 0.2;
+}
+
+
+
+
+
+/* rightSide */
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgs2
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #25322B;
+    border-radius: 30px;
+    width: 230px;
+    height: 50px;
+    padding-top: 15px;
+}
+#img11{
+    width: 80px;
+    height: 50px;
+}
+#img22{
+    width: 80px;
+    height: 50px;
+}
+/* CEO Card */
+.ceo-card {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #25322B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 20px;
+    max-width: 230px;
+    height: 20px;
+}
+
+.ceo-img {
+    width: 120px;
+    height: 120px;
+    background-image: url('./imgs/Group\ 73.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+    margin-bottom: 60px;
+}
+
+.ceo-text {
+    color: #00ffcc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ceo-text h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #00ffcc; 
+}
+
+.ceo-text p {
+    margin: 0;
+    font-size: 0.5rem;
+    color: #fff;
+}
